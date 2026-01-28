@@ -1,0 +1,3 @@
+pip install joblib
+
+pip install pandas numpy scikit-learn statsmodels imbalanced-learn joblib

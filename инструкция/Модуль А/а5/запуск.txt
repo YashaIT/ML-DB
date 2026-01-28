@@ -1,0 +1,1 @@
+python -m agents.a5_expand.main --new_tracks 5 --synth_per_track 1 --noise_m 20 --aug_n 3 --images_in data/images
