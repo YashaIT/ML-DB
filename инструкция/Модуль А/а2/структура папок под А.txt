@@ -1,0 +1,49 @@
+В корне ml_db_project/ создай:
+agents/
+	__init__.py
+  a1_ingest/
+	main.py
+	__init__.py
+    providers/
+	gpx.py
+	__init__.py
+    services/
+	weather.py
+	imagery.py
+	__init__.py
+  a2_features/
+		main.py
+		__init__.py
+      providers/
+		__init__.py
+      services/
+		__init__.py
+		area_classifier.py
+		geo_features.py
+		context_from_tiles.py
+		settlements.py
+		weather_utils.py
+data/
+  raw/
+	track1.gpx
+	track2.gpx
+	track3.gpx
+	track4.gpx
+  images/
+logs/
+shared/
+	logging.py
+	config.py
+	db.py
+	models.py
+	utils.py
+	__init__.py
+	features_models.py
+	dataset_models.py
+requirements.txt
+
+
+
+--------------------------------------------------------------
+Кинь любой .gpx файл сюда:
+data/raw/track1.gpx

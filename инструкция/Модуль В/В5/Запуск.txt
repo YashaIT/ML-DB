@@ -1,0 +1,8 @@
+streamlit run agents/v5_risk_viz/main.py -- --freq D --forecast_horizon 7 --limit_points 40000 --max_3d_points 15000
+
+
+Если будет подлагивать:
+
+--max_3d_points 5000
+
+--limit_points 15000

@@ -1,0 +1,2 @@
+
+pip install fastapi uvicorn redis python-jose[cryptography] python-multipart joblib

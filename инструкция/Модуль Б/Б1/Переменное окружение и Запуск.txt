@@ -1,0 +1,8 @@
+Поставь переменные окружения (в PowerShell):
+
+$env:DASH_VIEWER_PASSWORD="viewer"
+$env:DASH_ADMIN_PASSWORD="admin"
+
+Запуск:
+
+python -m agents.b1_dashboard.main

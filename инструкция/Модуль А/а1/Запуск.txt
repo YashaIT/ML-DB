@@ -1,0 +1,1 @@
+python -m agents.a1_ingest.main --source gpx_file --ref data/raw --region "Test"

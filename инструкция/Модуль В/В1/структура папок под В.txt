@@ -1,0 +1,113 @@
+В корне ml_db_project/ создай:
+agents/
+	__init__.py
+  a1_ingest/
+	main.py
+	__init__.py
+    providers/
+	gpx.py
+	__init__.py
+    services/
+	weather.py
+	imagery.py
+	__init__.py
+  a2_features/
+		main.py
+		__init__.py
+      providers/
+		__init__.py
+      services/
+		__init__.py
+		area_classifier.py
+		geo_features.py
+		context_from_tiles.py
+		settlements.py
+		weather_utils.py
+   a3_preprocess/
+		__init__.py
+		main.py
+	services/
+		__init__.py
+		io.py
+		vif.py
+		feature_select.py
+		pipeline.py
+       artifacts/
+  a4_dataset_report/
+		__init__.py
+		main.py
+	services/
+		__init__.py
+		load.py
+		dictionary.py
+      		stats_tests.py
+      		map_folium.py
+		profiling.py
+	 artifacts/
+   a5_expand/
+		__init__.py
+		main.py
+	services/
+		__init__.py
+		osm_overpass.py
+		synth_tracks.py
+		image_augment.py
+		fid_metrics.py
+		render_track_images.py
+	artifacts/
+	out/
+		images_aug/
+		images_gen/
+    b1_dashboard/
+		__init__.py
+    		main.py
+   	 	app.py
+    	services/
+		__init__.py
+      		auth.py
+     		data.py
+      		external.py
+      		alerts.py
+		analytics.py
+    b2_labeling/
+		__init__.py
+		main.py
+	services/
+		__init__.py
+		labeling.py
+    b3_evaluation/
+		__init__.py
+		main.py
+	 artifacts/
+    v1_train/
+		__init__.py
+		main.py
+	artifacts/
+data/
+  raw/
+	track1.gpx
+	track2.gpx
+	track3.gpx
+	track4.gpx
+  images/
+logs/
+shared/
+	logging.py
+	config.py
+	db.py
+	models.py
+	utils.py
+	__init__.py
+	features_models.py
+	dataset_models.py
+	b_models.py (новая модель alerts)
+	b2_models.py (новая модель)
+config/
+	secrets.json
+requirements.txt
+
+
+
+--------------------------------------------------------------
+Кинь любой .gpx файл сюда:
+data/raw/track1.gpx
