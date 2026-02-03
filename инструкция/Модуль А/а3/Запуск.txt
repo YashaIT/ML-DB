@@ -1,4 +1,0 @@
-python -m agents.a3_preprocess.main --method rf --balance smote --top_k 8
-
-
-python -m agents.a3_preprocess.main --method mi --balance none --top_k 8
